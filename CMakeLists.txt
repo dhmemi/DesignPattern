@@ -8,7 +8,7 @@ file(GLOB_RECURSE EXAMPLES example/*.cpp)
 include_directories(include)
 message("add source files: ${HDRS}")
 message("add include files: ${SRCS}")
-message("add example files:${EXAMPLES}")
+message("add example files: ${EXAMPLES}")
 
 add_library(${PROJECT_NAME} ${SRCS} ${HDRS})
 
