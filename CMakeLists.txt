@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.02)
 
 project(deps)
 
+set (CMAKE_CXX_STANDARD 11)
+
 file(GLOB_RECURSE HDRS include/*.hpp)
 file(GLOB_RECURSE SRCS src/*.cpp)
 file(GLOB_RECURSE EXAMPLES example/*.cpp)
