@@ -29,6 +29,6 @@ private:
 
 template<typename T> T* Singleton<T>::m_ptr(nullptr);
 
-}
+} //namespace deps
 
 #endif //DEPS_SINGLETON_HPP
